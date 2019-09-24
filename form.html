@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="./style2.css">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo2">
+                <img src="nysl_logo.png" alt="logo2">
+            </div>
+            <h1>Northside Youth Soccer League</h1>
+            <div class="logo">
+                <img src="nysl_logo.png" alt="logo">
+                </div>                       
+        </div>
+        <div class="navbar">
+                <a class="menu">Home</a>
+                <a class="menu" href="about2.html">About NYSL</a>
+                <a class="menu" href="contact2.html">Contact</a>
+                <a class="menu" href="game.html" >Game Information</a>
+                <a class="menu" href="form.html">Registration form</a>
+                <a class="menu" href="rules.html">Rules&Policies</a>
+        </div>                                
+        <div class="content">
+                <div class="leftside_form">
+                    <h3>REGISTRATION FORM</h3>
+                        <form action="show_data.html" method="GET">
+                            <div class="first_row row">
+                                <div class="first_name">
+                                    <label for="first_name">Player's First Name:</label>
+                                    <input name="first_name" placeholder="Your Name" type="text" required>
+                                </div>
+                                <div class="last_name">
+                                    <label for="last_name">Player's Last Name:</label>
+                                    <input name="last_name" placeholder="Your Last Name" type="text" required>
+                                </div>
+                            </div>
+                            <div class="second_row row">
+                                <label for="street_addres">Street Address:</label>
+                                <input name="street_addres" placeholder="Your Street Address..." type="text" required>
+                            </div>
+                            <div class="third_row row">
+                                <div class="first_name">
+                                    <label for="city">City:</label>
+                                    <input name="city" placeholder="Your City" type="text" required>
+                                </div>
+                                <div class="zip_code">
+                                    <label for="zip_code">Zip Code:</label>
+                                    <input name="zip_code" placeholder="Your Zip Code" type="text" required>
+                                </div>
+                            </div>
+                            <div class="forth_row row">
+                                    <div class="birth_date">
+                                        <label for="birth_date">Birth Date:</label>                                       
+                                        <input type="number" name="birth_date" placeholder="Your Birth Date" required>
+                                    </div>
+                                    <div class="genderchoice">
+                                        <label for="gender">Gender:</label>
+                                        <label for="Female">Female</label>
+                                        <input type="radio" name="Genderchoice" id="Female" value="Female">
+                                        <label for="Male">Male</label>
+                                        <input id="Male" name="Genderchoice" type="radio" value="Male">
+                                    </div>
+                            </div>
+                            <div class="fifth_row row">
+                                <label for="grade">Grade:</label>
+                                <div>
+                                    <input type="radio" name="coursechoice" id="Pre_school" value="Pre_school">
+                                    <label for="Pre_school">Pre-School</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="coursechoice" id="1st" value="1st">
+                                    <label for="1st">1st</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="coursechoice" id="2nd" value="2nd">
+                                    <label for="2nd">2nd</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="coursechoice" id="2nd" value="2nd">
+                                    <label for="2nd">2nd</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="coursechoice" id="2nd" value="2nd">
+                                    <label for="2nd">2nd</label> 
+                                </div>
+                                <div>
+                                    <input type="radio" name="coursechoice" id="3rd" value="3rd">
+                                    <label for="3rd">3rd</label> 
+                                </div>
+                                <div>
+                                    <input type="radio" name="coursechoice" id="4th" value="4th">
+                                    <label for="4th">4th</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="coursechoice" id="5th" value="5th">
+                                    <label for="5th">5th</label>
+                                </div>                                                                                                                                                                                                                                                      
+                            </div>
+                            <div class="sixth_row row">
+                                <label for="parent">Parent/Guardian</label>
+                                <input name="parent" placeholder="Your Parent Name" type="text" required>                                
+                            </div>
+                            <div class="seven_row row">
+                                <div class="phone">
+                                    <label for="phone">Contact Phone</label>
+                                    <input name="phone" placeholder="Your Phone" type="text" required>
+                                </div>
+                                <div class="email_address">
+                                    <label for="email_address">Contact Email</label>
+                                    <input name="email_address" placeholder="Your Email" type="text" required>
+                                </div>
+                            </div>
+                            <p class="question"><div class="bold_form">Which elementary schools do you live near?</div></p>
+                            <div class="eight_row row">
+                                <div class="first_schools">
+                                    <div class="first_half">
+                                        <label for="closest_schools"><div class="bold">Closest School:</div> </label>
+                                        <div>
+                                            <input type="radio" name="school_choice" id="AJ_Katzenmaier" value="AJ_Katzenmaier">
+                                            <label for="AJ_Katzenmaier">AJ Katzenmaier</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="school_choice" id="Greenbay" value="Greenbay">
+                                            <label for="Greenbay">Greenbay</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="school_choice" id="Howard_A_Yeager" value="Howard_A_Yeager">
+                                            <label for="Howard_A_Yeager">Howard A Yeager</label>
+                                        </div>                                                                               
+                                    </div>
+                                    <div class="second_half">
+                                        <div>
+                                            <input type="radio" name="school_choice" id="Marjorie" value="Marjorie">
+                                            <label for="Marjorie">Marjorie P Hart</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="school_choice" id="north_elementary" value="north_elementary">
+                                            <label for="north_elementary">North Elementary</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="school_choice" id="south_elementary" value="south_elementary">
+                                            <label for="south_elementary">South Elementary</label>
+                                        </div>                                        
+                                    </div>                                                                        
+                                </div>
+                                <div class="second_schools">
+                                    <div class="first_half">
+                                        <label for="closest_schools"><div class="bold">Second Closest Schools:</div></label>
+                                        <div>
+                                            <input type="radio" name="school2_choice" id="AJ_Katzenmaier" value="AJ_Katzenmaier">
+                                            <label for="AJ_Katzenmaier">AJ Katzenmaier</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="school2_choice" id="Greenbay" value="Greenbay">
+                                            <label for="Greenbay">Greenbay</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="school2_choice" id="Howard_A_Yeager" value="Howard_A_Yeager">
+                                            <label for="Howard_A_Yeager">Howard A Yeager</label> 
+                                        </div>                                                                                                                      
+                                    </div>
+                                    <div class="second_half">
+                                        <div>
+                                            <input type="radio" name="school2_choice" id="Marjorie" value="Marjorie">
+                                            <label for="Marjorie">Marjorie P Hart</label>  
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="school2_choice" id="north_elementary" value="north_elementary">
+                                            <label for="north_elementary">North Elementary</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="school2_choice" id="south_elementary" value="south_elementary">
+                                            <label for="south_elementary">South Elementary</label>
+                                        </div>                                                                                                                       
+                                    </div>                                       
+                                </div>
+                            </div>
+                            <p class="question"><div class="bold_form">What position(s) do you normally play? </div>(check all that apply)</p>
+                            <div class="ninth_row row">                          
+                                <div class="positions">
+                                    <div class="first_half">
+                                        <div>
+                                            <input type="radio" name="forward" id="forward" value="forward">
+                                            <label for="for">Forward</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="defense" id="defense" value="defense">
+                                            <label for="defense">Defense</label> 
+                                        </div>                                                                                                                                   
+                                    </div>
+                                    <div class="second_half">
+                                        <div>
+                                            <input type="radio" name="defense" id="defense" value="defense">
+                                            <label for="defense">Defense</label>  
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="goalkeeper" id="goalkeeper" value="goalkeeper">
+                                            <label for="goalkeeper">Goalkeeper</label> 
+                                        </div>                                                                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="question"><div class="bold_form">What position(s) do you want to play?</div>(check all that apply)</p>
+                            <div class="ten_row row">                          
+                                <div class="positions">
+                                    <div class="first_half">
+                                        <div>
+                                            <input type="radio" name="forward" id="forward" value="forward">
+                                            <label for="for">Forward</label>  
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="defense" id="defense" value="defense">
+                                            <label for="defense">Defense</label> 
+                                        </div>                                                                                        
+                                    </div>
+                                    <div class="second_half">
+                                        <div>
+                                            <input type="radio" name="defense" id="defense" value="defense">
+                                            <label for="defense">Defense</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="goalkeeper" id="goalkeeper" value="goalkeeper">
+                                            <label for="goalkeeper">Goalkeeper</label>
+                                        </div>                                           
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="eleven_row row">
+                                <input type="radio" name="uniform_choice" id="uniform_choice" value="uniform_choice">
+                                <label for="uniform_choice"><div class="bold">Already Have a Uniform</div></label>                                   
+                            </div>
+                            <div class="twelve_row row">
+                                <div class="jersey">
+                                    <div class="first_half">
+                                        <label for="closest_schools"><div class="bold">Jersey Size:</div> </label>
+                                        <div>
+                                            <input type="radio" name="jersey_choice" id="Youth_Small" value="Youth_Small">
+                                            <label for="Youth_Small">Youth Small</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="jersey_choice" id="Youth_Medium" value="Youth_Medium">
+                                            <label for="Youth_Medium">Youth Medium</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="jersey_choice" id="Youth_Large" value="Youth_Large">
+                                            <label for="Youth_Large">Youth Large</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="jersey_choice" id="small" value="small">
+                                            <label for="small">Small</label> 
+                                        </div>                                                                                                                                                              
+                                    </div>
+                                    <div class="second_half">
+                                        <div>
+                                           <input type="radio" name="jersey_choice" id="medium" value="medium">
+                                            <label for="medium">Medium</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="jersey_choice" id="large" value="large">
+                                            <label for="large">Large</label>
+                                        </div>
+                                        <div>
+                                           <input type="radio" name="jersey_choice" id="extra_large" value="extra_large">
+                                            <label for="extra_large">Extra-Large</label> 
+                                        </div>                                                                              
+                                    </div>                                                                        
+                                </div>
+                                <div class="short">
+                                    <div class="first_half">
+                                        <label for="closest_schools"><div class="bold">Short Size:</div> </label>
+                                        <div>
+                                            <input type="radio" name="short_choice" id="Youth_Small" value="Youth_Small">
+                                            <label for="Youth_Small">Youth Small</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="short_choice" id="Youth_Medium" value="Youth_Medium">
+                                            <label for="Youth_Medium">Youth Medium</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="short_choice" id="Youth_Large" value="Youth_Large">
+                                            <label for="Youth_Large">Youth Large</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="short_choice" id="small" value="small">
+                                            <label for="small">Small</label> 
+                                        </div>                                                                                                                                                              
+                                    </div>
+                                    <div class="second_half">
+                                        <div>
+                                            <input type="radio" name="short_choice" id="medium" value="medium">
+                                            <label for="medium">Medium</label> 
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="short_choice" id="large" value="large">
+                                            <label for="large">Large</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="short_choice" id="extra_large" value="extra_large">
+                                            <label for="extra_large">Extra-Large</label> 
+                                        </div>                                                                              
+                                    </div>                        
+                                </div>
+                            </div>
+                            <p class="permission_title">Permission to play</p>
+                            <p class="permission_clause">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by oron behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
+                            <!-- <div class="last_row row">
+                                <div class="signature">
+                                    <label for="signature">Parent/Guardian Signature</label>
+                                    <input name="signature" placeholder="Your Signature" type="text" required>
+                                </div>
+                                <div class="date">
+                                    <label for="date">Date</label>
+                                    <input name="Date" placeholder="Date" type="number" required>
+                                </div> 
+                            </div> -->
+                            <div class="submit">
+                                    <input type="SUBMIT" value="SUBMIT">
+                            </div>                       
+                        </form>                                                                                       
+                </div>          
+                <div class="images" >
+                    <div class="image1">
+                        <img src="soccer_image1.png" alt="image1">
+                    </div>
+                    <div class="image3">
+                        <img src="playing.png" alt="image3">
+                    </div>
+                    <div class="image4">
+                        <img src="image4.png" alt="image4">
+                    </div>
+                    <div class="image5">
+                            <img src="image5.png" alt="image5">
+                        </div>                
+                    </div>    
+        </div>
+    </body>
+</html>
