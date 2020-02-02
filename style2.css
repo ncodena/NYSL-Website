@@ -2,12 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body {
-    padding: 0 70px;
-    background-color:#4E6B85;
-    background-size: cover;
-    background-position: center;
-}
+/* Header */
 
 .logo{
     display: flex;
@@ -30,7 +25,7 @@ body {
 }
 .logo2 > img{
     width: 55%;
-    transition: all .2s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .logo:hover{
     width: 40%;
@@ -47,53 +42,51 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 6px solid #152F45
 }
-h1{
-    color: aliceblue;
-    margin: auto;
-    width: 62%;
-    text-align: center;
-    font-family: 'EB Garamond', serif;
-    font-size: 259%;
-}
+
+/* NAVBAR */
 .navbar{
     justify-content: center;
     text-justify: auto;
     align-items: center;
     display: flex;
     margin: auto;
-    border: 20px;
-    border-color: black;
     color: white;
     font-size: 97%;
     font-family: 'EB Garamond', serif;
     background-color: #ABBFD0;
     background-position: center;
-    border: 6px solid #152F45;
-    opacity: 0.6;
+    opacity: 0.8;
     transition: 0.3s;
 }
 .navbar:hover {
     opacity: 1;
 }
 a.menu{
-    font-size: 83%;
+    font-size: 105%;
     display: inline;
     margin: 25px 5%;
     font-family: 'EB Garamond', serif;
-    font-weight: bold;
-}
-a:hover{
-    font-size: 30px;
+    transition: 0.4s;
+    text-decoration: none;
     color: #152F45;
 }
+a:hover{
+    /* font-size: 30px; */
+    transform: scale(1.3);
+    color: #152F45;
+}
+/* .special{
+    font-weight: bold;
+    color: aliceblue;
+} */
 
+/* IMAGES */
 .images{
     display: flex;
     flex-direction: column;
     width: 30%;
-    border: 6px solid #152F45;
+    height: 21%;
 }
 .image3 > img{
     width: 100%;   
@@ -106,8 +99,35 @@ a:hover{
 }
 .image5 > img{
     width: 100%;
-    height: 133%;
 }
+.image6 > img{
+    width: 100%;
+}
+.image7 > img{
+    width: 100%;  
+}
+.image8 > img{
+    width: 100%;
+}
+.image9 > img{
+    width: 100%;
+}
+.image10 > img{
+    width: 100%; 
+}
+.image11 > img{
+    width: 100%; 
+}
+.image12 > img{
+    width: 100%;
+}
+.image13 > img{
+    width: 100%;
+}
+.image14 > img{
+    width: 100%; 
+}
+/* HOME */
 .schedule{
     display: flex;
     align-items: center;
@@ -117,6 +137,7 @@ a:hover{
     padding-top: 55px;
     font-family: 'EB Garamond', serif;
 }
+/* ABOUT */
 .story{
     display: flex;
     align-items: center;
@@ -126,21 +147,29 @@ a:hover{
     padding-top: 37px;
     text-align: left;
 }
+.mission{
+    margin-top: 29px;
+    margin-bottom: 29px;
+    margin-right: 20px;
+}
+.vision{
+    margin-top: 29px;
+    margin-bottom: 29px;
+    margin-right: 20px;
+}
+.general{
+    margin-top: 29px;
+    margin-bottom: 29px;
+    margin-right: 20px;
+}
 .content{
     /* border: 1px solid blue; */
     height: 1500px;
     display: flex;
     justify-content: center;
+    padding: 0 70px;
 }
-.tables{
-    display: flex;
-    justify-content: center;
-    text-align: start;
-    flex-direction: column;
-    width: 81%;
-    margin-top: 4%;
-    padding-left: 10%;
-}
+
 .text{
     font-family: 'EB Garamond', serif;
     font-size: 20px;
@@ -150,11 +179,21 @@ a:hover{
     text-align: justify;
     padding-right: 30px;
 }
+/* H */
+h1{
+    color: aliceblue;
+    margin: auto;
+    width: 62%;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 259%;
+}
 h2{
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     padding-top: 20px;
     padding-bottom: 10px;
+    padding-left: 5%;
     margin-right: auto;
     color: #152F45;
     border-left: 6px solid#152F45;
@@ -175,29 +214,22 @@ h4{
     font-size: 118%;
     padding-top: 3%;
 }
-.mission{
-    background-color: #ABBFD0;
-    margin-top: 29px;
-    margin-bottom: 29px;
-    margin-right: 20px;
-}
-.vision{
-    background-color:#ABBFD0;
-    margin-top: 29px;
-    margin-bottom: 29px;
-    margin-right: 20px;
-}
-.general{
-    background-color: #ABBFD0;
-    margin-top: 29px;
-    margin-bottom: 29px;
-    margin-right: 20px;
+
+/* TABLES */
+.tables{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+    width: 81%;
+    margin-top: 4%;
+    padding-left: 10%;
 }
 table{
     width: 80%;
     height: 28%;
     margin-top: 5%;
-    border: 6px solid #152F45;
+    border: 4px solid #152F45;
     background-color:#ABBFD0;
     border-collapse: collapse;
 }
@@ -251,24 +283,31 @@ tr:nth-child(even){
     font-family: 'EB Garamond', serif;
 }
 .locations{
-    margin-top: 5%;
-    margin-right: auto;
+    display: flex;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    width: 113%;
+    overflow: hidden;
 }
 iframe{
     margin-top: 5%;
-    display: flex;
-    justify-content: center;
+    width: 68%;
 }
 .details{
     font-size: 129%;
     margin-top: 4%;
     line-height: 245%;
     margin-right: 5%;
+    color: #152F45;
 }
 .datacontact{
     display: flex;
     justify-content: space-between;
 }
+/* LISTS */
 .rulessubt{
     margin-top: 3%;
     background-color: #ABBFD0;
@@ -278,9 +317,6 @@ iframe{
     text-align: justify;
     line-height: 162%;
     margin-right: 6%;
-}
-li{
-    background-color:#ABBFD0;
 }
 .hform{
     margin-top: 3%;
@@ -304,7 +340,6 @@ form {
     font-weight: bold;
     display: inline;
 }
-
 
 .row {
     display: flex;
@@ -358,7 +393,6 @@ form {
     padding-top: 5%;
 }
 
-}
 .twelve_row{
     line-height: 240%;
 }
@@ -422,6 +456,7 @@ p.permission_clause{
     padding-left: 3%;
     padding-right: 3%;
     height: 143%;
+    border: 4px solid #152F45;
 }
 .submit{
     display: flex;
